@@ -35,28 +35,31 @@
     transform: translate(-50%, -50%);
   }
 
-  .h1s{
-    font-size:5em;
-  }
+  .h1s {
+    position: relative; /* Asegura que el texto esté por encima del video */
+    color: white; /* Cambia el color del texto para que se vea */
+    font-size: 3em; /* Ajusta el tamaño del texto según sea necesario */
+}
 
   .learnMoreSection {
-    text-align: center;
-    padding: 40px;
-    background-color: #ffffff; /* Color de fondo suave */
-    border-radius: 10px;
-    margin: 20px auto;
-    width: 80%; /* Ajusta el tamaño según sea necesario */
-  }
+    display: flex;             /* Usa flexbox para organizar los elementos */
+    justify-content: space-between; /* Espacio entre el texto y el botón */
+    align-items: center;      /* Alinea verticalmente los elementos al centro */
+    margin-bottom: 20px;      /* Margen inferior para separación */
+}
   
   .h2s {
     font-size: 35px;
+    margin-left: 0.9em;
   }
   
   .paragraph {
-    font-size: 18px;
+    font-size: 20px;
     line-height: 1.6;
     margin-bottom: 20px;
-  }
+    text-align: left;         /* Alinea el texto a la izquierda */
+    margin-left: 2em;
+}
   
   .learnMoreButton {
     padding: 10px 20px;
@@ -67,13 +70,169 @@
     cursor: pointer;
     font-size: 16px;
     transition: background-color 0.3s ease;
+    font-size: 20px;          /* Cambia el tamaño del botón */
+    padding: 10px 20px;       /* Agrega espacio interno al botón */
+
   }
   
   .learnMoreButton:hover {
     background-color: #003366;
   }
-  
-  
+
+/* styles/Home.module.css */
+.container {
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.videoContainer {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -1;
+  transform: translate(-50%, -50%);
+  object-fit: cover;
+}
+
+.content {
+  position: relative;
+  z-index: 1;
+  color: white;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.h1s {
+  position: relative; /* Asegura que el texto esté por encima del video */
+  color: white; /* Cambia el color del texto para que se vea */
+  font-size: 3em; /* Ajusta el tamaño del texto según sea necesario */
+}
+
+.learnMoreSection {
+  display: flex;             /* Usa flexbox para organizar los elementos */
+  justify-content: space-between; /* Espacio entre el texto y el botón */
+  align-items: center;      /* Alinea verticalmente los elementos al centro */
+  margin-bottom: 20px;      /* Margen inferior para separación */
+}
+
+.h2s {
+  font-size: 35px;
+  margin-left: 0.9em;
+}
+
+.paragraph {
+  font-size: 20px;
+  line-height: 1.6;
+  margin-bottom: 20px;
+  text-align: left;         /* Alinea el texto a la izquierda */
+  margin-left: 2em;
+}
+
+.learnMoreButton {
+  padding: 10px 20px;
+  background-color: #004085;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+  font-size: 20px;          /* Cambia el tamaño del botón */
+  padding: 10px 20px;       /* Agrega espacio interno al botón */
+
+}
+
+.learnMoreButton:hover {
+  background-color: #003366;
+}
+
+  .roundButton {
+    width: 10em;
+    height: 10em;
+    background-image: url('https://img.freepik.com/foto-gratis/hermosas-constelaciones-cielo-oscuro_23-2149988814.jpg?t=st=1728222517~exp=1728226117~hmac=45c06accd283fc323f4c27e34b02bf6379cd4c7f6e993c39d8dfd36fd81dc88e&w=740'); /* Imagen de fondo */
+    background-size: cover;  /* Asegura que la imagen cubra todo el botón */
+    background-position: center;  /* Centra la imagen en el botón */
+    color: white;
+    font-size: 24px;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 8em;
+    margin-top: 1em;  /* Baja el botón un poco */
+  }
+
+  .roundButton:hover {
+    background-color: rgba(87, 88, 131, 0.7); /* Opcional: cambia el fondo al pasar el ratón */
+  }
+
+  .catalogContainer {
+  position: relative; /* Permite posicionar el video y el texto dentro */
+  text-align: center; /* Centra el texto */
+  }
+
+  .backgroundVideo {
+  position: absolute; /* Posiciona el video detrás del texto */
+  top: 0;
+  left: 0;
+  width: 100%; /* Asegura que el video cubra todo el contenedor */
+  height: 100%;
+  object-fit: cover; /* Mantiene la proporción del video */
+  z-index: -1; /* Envía el video detrás del texto */
+  }
 
 
+  .roundButton:hover {
+    background-color: rgba(87, 88, 131, 0.7); /* Cambia el fondo al pasar el ratón */
+    transform: translateY(-10px) rotate(10deg); /* Mueve el botón hacia arriba y lo rota */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3); /* Agrega sombra al pasar el ratón */
+}
+
+/* Animación de movimiento */
+@keyframes float {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-5px);
+    }
+    120% {
+        transform: translateY(0);
+    }
+}
+
+.roundButton {
+    animation: float 1s ease-in-out infinite; /* Aplica la animación de flotación */
+}
+
+.catalogContainer {
+  position: relative; /* Permite posicionar el video y el texto dentro */
+  text-align: center; /* Centra el texto */
+}
+
+.backgroundVideo {
+  position: absolute; /* Posiciona el video detrás del texto */
+  top: 0;
+  left: 0;
+  width: 100%; /* Asegura que el video cubra todo el contenedor */
+  height: 100%;
+  object-fit: cover; /* Mantiene la proporción del video */
+  z-index: -1; /* Envía el video detrás del texto */
+}
   
