@@ -31,7 +31,7 @@ export default function Home() {
           <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
             Bright Constellations
           </Typography>
-          <Button color="inherit">Menú</Button>
+          {/* <Button color="inherit">Menú</Button> */}
         </Toolbar>
       </AppBar>
 

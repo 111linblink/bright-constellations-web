@@ -3,6 +3,7 @@
 import React, { useEffect, useState } from "react";
 
 import exoplanets_info from "@/exo-info.json";
+import { StarMap } from "@/components/StarsMaps";
 
 const infoExoEmpty = {
   name: "",
@@ -28,9 +29,11 @@ const ExoPage = ({ params }) => {
 
   return (
     <div>
-      <h1>Type: {type}</h1>
+      {/* <h1>Type: {type}</h1>
       <h2>Exo: {exo}</h2>
-      <p>{JSON.stringify(infoExo)}</p>
+      <p>{JSON.stringify(infoExo)}</p> */}
+
+      <StarMap />
     </div>
   );
 };

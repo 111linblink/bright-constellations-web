@@ -67,11 +67,31 @@ const Page = ({ params }) => {
 
         {/* Box al lado del iframe */}
         <Box
-          component="section"
-          sx={{ p: 3, m: 2, border: "1px dashed grey", color: "white" }}
-          style={{ width: "700px" }}
+          sx={{
+            p: 3,
+            m: 2,
+            border: "1px dashed grey",
+            color: "white",
+            width: "100%", // Aseguramos que ocupe el ancho disponible
+            maxWidth: "700px", // Limitar el ancho máximo
+            overflow: "auto", // Evitar desbordamientos
+            boxSizing: "border-box", // Incluir padding y border en el cálculo del ancho
+          }}
         >
-          <p>{exoplanets_assets.find((item) => item.type === type)?.p1}</p>
+          <Typography
+            sx={{
+              fontSize: "1.5rem",
+              lineHeight: 1.6,
+              padding: "1rem",
+              borderRadius: "10px",
+              boxShadow: "2px 2px 10px rgba(0, 0, 0, 0.1)",
+              textAlign: "center",
+              margin: "1rem auto",
+              color: "white",
+            }}
+          >
+            {exoplanets_assets.find((item) => item.type === type)?.p1}
+          </Typography>
         </Box>
       </div>
 
