@@ -34,9 +34,13 @@ const Page = ({ params }) => {
   };
 
   return (
-    <div style={{ backgroundColor: "black", color: "white", minHeight: "100vh" }}>
-      <h1 style={{ marginLeft: "1000px", fontSize: "50px" }}>{type.toUpperCase()}</h1>
-      
+    <div
+      style={{ backgroundColor: "black", color: "white", minHeight: "100vh" }}
+    >
+      <h1 style={{ marginLeft: "1000px", fontSize: "50px" }}>
+        {type.toUpperCase()}
+      </h1>
+
       {/* Contenedor para el iframe y el Box */}
       <div
         style={{
@@ -62,12 +66,15 @@ const Page = ({ params }) => {
         />
 
         {/* Box al lado del iframe */}
-        <Box component="section" sx={{ p: 3,m:2, border: '1px dashed grey', color: "white" }} style={ {width:"700px"}}>
-        <p>{exoplanets_assets.find((item)=> item.type===type)?.p1}</p>
-
+        <Box
+          component="section"
+          sx={{ p: 3, m: 2, border: "1px dashed grey", color: "white" }}
+          style={{ width: "700px" }}
+        >
+          <p>{exoplanets_assets.find((item) => item.type === type)?.p1}</p>
         </Box>
       </div>
-      
+
       {/* Cards de los exoplanetas */}
       <Box
         sx={{
@@ -78,8 +85,58 @@ const Page = ({ params }) => {
         }}
       >
         {exoplanets.map((item) => (
+          //   <Card
+          //     sx={{
+          //       maxWidth: 345,
+          //       borderRadius: "5%",
+          //       background: "black",
+          //       "&:hover": { bgcolor: "#1c1c1c" },
+          //     }}
+          //     key={item.name}
+          //   >
+          //     <CardActionArea
+          //       onClick={() => sendRoute(item.name.replaceAll(" ", "-"))}
+          //     >
+          //       <CardMedia
+          //         component="img"
+          //         height="140"
+          //         src={exoplanets_assets.find((item) => item.type === type)?.url}
+          //         alt={type}
+          //       />
+          //       <CardContent sx={{ textAlign: "center" }}>
+          //         <Typography
+          //           gutterBottom
+          //           variant="h5"
+          //           component="div"
+          //           sx={{ color: "white" }}
+          //         >
+          //           {item.name}
+          //         </Typography>
+          //         <Typography variant="body2" sx={{ color: "white" }}>
+          //           Parsecs from Earth: {item.pfe}
+          //         </Typography>
+          //         <Typography variant="body2" sx={{ color: "white" }}>
+          //           Planet Mass: {item.pm}
+          //         </Typography>
+          //         <Typography variant="body2" sx={{ color: "white" }}>
+          //           Stellar Magnitude: {item.sm}
+          //         </Typography>
+          //         <Typography variant="body2" sx={{ color: "white" }}>
+          //           Discovery Date: {item.dd}
+          //         </Typography>
+          //       </CardContent>
+          //     </CardActionArea>
+          //   </Card>
+
           <Card
-            sx={{ maxWidth: 345, borderRadius: "5%", py: 2, backgroundColor: "#1c1c1c", color: "white", marginTop:"40px"}}
+            sx={{
+              maxWidth: 345,
+              borderRadius: "5%",
+              py: 2,
+              backgroundColor: "#1c1c1c",
+              color: "white",
+              marginTop: "40px",
+            }}
             key={item.name}
           >
             <CardActionArea
@@ -92,7 +149,12 @@ const Page = ({ params }) => {
                 alt={type}
               />
               <CardContent sx={{ textAlign: "center", color: "white" }}>
-                <Typography gutterBottom variant="h5" component="div" sx={{ color: "white" }}>
+                <Typography
+                  gutterBottom
+                  variant="h5"
+                  component="div"
+                  sx={{ color: "white" }}
+                >
                   {item.name}
                 </Typography>
                 <Typography variant="body2" sx={{ color: "white" }}>
