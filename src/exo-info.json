@@ -1,0 +1,242 @@
+[
+    {
+        "name": "HD 222237 b",
+        "pfe": "11.4469",
+        "pl": "5.19 Jupiters",
+        "sm": "7.09",
+        "dd": "2024",
+        "type": "gas-giant"
+    },
+    {
+        "name": "HIP 67522 c",
+        "pfe": "127.28",
+        "pl": "0.152 Jupiters",
+        "sm": "9.79",
+        "dd": "2024",
+        "type": "gas-giant"
+    },
+    {
+        "name": "TOI-4562 c",
+        "pfe": "339.605",
+        "pl": "5.77 Jupiters",
+        "sm": "12.14",
+        "dd": "2024",
+        "type": "gas-giant"
+    },
+    {
+        "name": "TOI-4914 b",
+        "pfe": "299.89",
+        "pl": "0.71422 Jupiters",
+        "sm": "12.235",
+        "dd": "2024",
+        "type": "gas-giant"
+    },
+    {
+        "name": "TOI-2981 b",
+        "pfe": "527.789",
+        "pl": "2.00737 Jupiters",
+        "sm": "13.361",
+        "dd": "2024",
+        "type": "gas-giant"
+    },
+    {
+        "name": "TOI-2714 b",
+        "pfe": "597.873",
+        "pl": "0.71737 Jupiters",
+        "sm": "13.468",
+        "dd": "2024",
+        "type": "gas-giant"
+    },
+    {
+        "name": "HD 21520 b",
+        "pfe": "79.208",
+        "pl": "17.7 Earths",
+        "sm": "9.17",
+        "dd": "2024",
+        "type": "neptune-like"
+    },
+    {
+        "name": "TOI-3568 b",
+        "pfe": "197.906",
+        "pl": "26.4 Earths",
+        "sm": "12.879",
+        "dd": "2024",
+        "type": "neptune-like"
+    },
+    {
+        "name": "OGLE-2017-BLG-0448L b",
+        "pfe": "7530",
+        "pl": "15.6 Earths",
+        "sm": "Unknown",
+        "dd": "2024",
+        "type": "neptune-like"
+    },
+    {
+        "name": "HD 77946 b",
+        "pfe": "99.451",
+        "pl": "10.9 Earths",
+        "sm": "8.99",
+        "dd": "2024",
+        "type": "neptune-like"
+    },
+    {
+        "name": "HD 135694 b",
+        "pfe": "73.8713",
+        "pl": "6.1 Earths",
+        "sm": "9.08",
+        "dd": "2023",
+        "type": "neptune-like"
+    },
+    {
+        "name": "HD 25463 b",
+        "pfe": "45.6181",
+        "pl": "8.7 Earths",
+        "sm": "6.91134",
+        "dd": "2023",
+        "type": "neptune-like"
+    },
+    {
+        "name": "MWC 758 c",
+        "pfe": "159.537",
+        "pl": "Unknown",
+        "sm": "8.270001",
+        "dd": "2023",
+        "type": "unknown"
+    },
+    {
+        "name": "TOI-1634 c",
+        "pfe": "35.2736",
+        "pl": "Unknown",
+        "sm": "13.217",
+        "dd": "2022",
+        "type": "unknown"
+    },
+    {
+        "name": "KIC 10001893 b",
+        "pfe": "1672.94",
+        "pl": "Unknown",
+        "sm": "15.829",
+        "dd": "2014",
+        "type": "unknown"
+    },
+    {
+        "name": "KIC 10001893 c",
+        "pfe": "1672.94",
+        "pl": "Unknown",
+        "sm": "15.829",
+        "dd": "2014",
+        "type": "unknown"
+    },
+    {
+        "name": "KIC 10001893 d",
+        "pfe": "1672.94",
+        "pl": "Unknown",
+        "sm": "15.829",
+        "dd": "2014",
+        "type": "unknown"
+    },
+    {
+        "name": "TOI-286 c",
+        "pfe": "59.2293",
+        "pl": "3.72 Earths",
+        "sm": "9.866",
+        "dd": "2024",
+        "type": "super-earth"
+    },
+    {
+        "name": "TOI-286 b",
+        "pfe": "59.2293",
+        "pl": "4.53 Earths",
+        "sm": "9.866",
+        "dd": "2024",
+        "type": "super-earth"
+    },
+    {
+        "name": "TOI-6255 b",
+        "pfe": "20.3167",
+        "pl": "1.44 Earths",
+        "sm": "12.747",
+        "dd": "2024",
+        "type": "super-earth"
+    },
+    {
+        "name": "TOI-1408 c",
+        "pfe": "139.484",
+        "pl": "7.6 Earths",
+        "sm": "9.270001",
+        "dd": "2024",
+        "type": "super-earth"
+    },
+    {
+        "name": "TOI-1798.02",
+        "pfe": "113.181",
+        "pl": "5.6 Earths",
+        "sm": "11.361",
+        "dd": "2024",
+        "type": "super-earth"
+    },
+    {
+        "name": "HD 6061 b",
+        "pfe": "67.6203",
+        "pl": "10 Earths",
+        "sm": "8.844",
+        "dd": "2023",
+        "type": "super-earth"
+    },
+    {
+        "name": "TOI-757 b",
+        "pfe": "60.3418",
+        "pl": "10.5 Earths",
+        "sm": "9.743",
+        "dd": "2024",
+        "type": "super-earth"
+    },
+    {
+        "name": "GJ 238 b",
+        "pfe": "15.2142",
+        "pl": "0.126 Earths",
+        "sm": "11.62",
+        "dd": "2024",
+        "type": "terrestrial"
+    },
+    {
+        "name": "TOI-4527.01",
+        "pfe": "18.1037",
+        "pl": "0.689 Earths",
+        "sm": "10.917",
+        "dd": "2024",
+        "type": "terrestrial"
+    },
+    {
+        "name": "SPECULOOS-3 b",
+        "pfe": "6792.036326",
+        "pl": "0.894 Earths",
+        "sm": "17.8",
+        "dd": "2024",
+        "type": "terrestrial"
+    },
+    {
+        "name": "LHS 1678 d",
+        "pfe": "19.8782",
+        "pl": "0.907 Earths",
+        "sm": "12.6",
+        "dd": "2024",
+        "type": "terrestrial"
+    },
+    {
+        "name": "Teegarden's Star d",
+        "pfe": "3.83078",
+        "pl": "0.82 Earths",
+        "sm": "15.13",
+        "dd": "2024",
+        "type": "terrestrial"
+    },
+    {
+        "name": "LHS 475 b",
+        "pfe": "12.4814",
+        "pl": "0.941 Earths",
+        "sm": "13",
+        "dd": "2023",
+        "type": "terrestrial"
+    }
+]

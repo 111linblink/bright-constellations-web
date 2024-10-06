@@ -1,0 +1,27 @@
+[
+    {
+        "type": "gas-giant",
+        "url": "https://science.nasa.gov/wp-content/uploads/2023/11/gasgiant.jpg?w=1280&format=webp&crop=1",
+        "frame_url": ""
+    },
+    {
+        "type": "neptune-like",
+        "url": "https://science.nasa.gov/wp-content/uploads/2023/11/gasgiant.jpg?w=1280&format=webp&crop=1",
+        "frame_url": ""
+    },
+    {
+        "type": "unknown",
+        "url": "https://science.nasa.gov/wp-content/uploads/2023/11/unknown.jpg?w=1280&format=webp&crop=1",
+        "frame_url": ""
+    },
+    {
+        "type": "super-earth",
+        "url": "https://science.nasa.gov/wp-content/uploads/2023/11/neptunelike.jpg?w=1280&format=webp&crop=1",
+        "frame_url": ""
+    },
+    {
+        "type": "terrestrial",
+        "url": "https://science.nasa.gov/wp-content/uploads/2023/11/terrestrial.jpg?w=1280&format=webp&crop=1",
+        "frame_url": "https://sketchfab.com/models/6d624c51dfa249b2a512f5906580b2d0/embed"
+    }
+]
