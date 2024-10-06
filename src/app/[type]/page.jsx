@@ -20,30 +20,33 @@ import { useRouter } from "next/navigation";
 const Page = ({ params }) => {
   const router = useRouter();
 
-  const { type } = params; // Accedemos al parámetro dinámico 'id'
+  const { type } = params;
   const [exoplanets, setExoplanets] = useState([]);
 
   useEffect(() => {
     const res = exoplanets_info.filter((item) => item.type === type);
 
     setExoplanets(res);
-  }, []);
+  }, [type]);
 
   const sendRoute = (exo) => {
     router.push(`/${type}/${exo}`);
   };
 
   return (
-    <div>
-      <h2>{type} y descripción</h2>
+    <div style={{ backgroundColor: "black", color: "white", minHeight: "100vh" }}>
+      <h1 style={{ marginLeft: "1000px", fontSize: "50px" }}>{type.toUpperCase()}</h1>
+      
+      {/* Contenedor para el iframe y el Box */}
       <div
         style={{
           display: "flex",
-          justifyContent: "center",
+          justifyContent: "space-evenly", // Para dejar espacio entre el iframe y el Box
           margin: "20px",
-          /* background: "black", */
+          alignItems: "center", // Para alinear verticalmente
         }}
       >
+        {/* iframe */}
         <iframe
           title="Exo_planeta"
           allowFullScreen
@@ -57,7 +60,15 @@ const Page = ({ params }) => {
           src={exoplanets_assets.find((item) => item.type === type)?.frame_url}
           style={{ width: "800px", height: "600px" }}
         />
+
+        {/* Box al lado del iframe */}
+        <Box component="section" sx={{ p: 3,m:2, border: '1px dashed grey', color: "white" }} style={ {width:"700px"}}>
+        <p>{exoplanets_assets.find((item)=> item.type===type)?.p1}</p>
+
+        </Box>
       </div>
+      
+      {/* Cards de los exoplanetas */}
       <Box
         sx={{
           display: "grid",
@@ -68,7 +79,7 @@ const Page = ({ params }) => {
       >
         {exoplanets.map((item) => (
           <Card
-            sx={{ maxWidth: 345, borderRadius: "5%", py: 2 }}
+            sx={{ maxWidth: 345, borderRadius: "5%", py: 2, backgroundColor: "#1c1c1c", color: "white", marginTop:"40px"}}
             key={item.name}
           >
             <CardActionArea
@@ -80,20 +91,20 @@ const Page = ({ params }) => {
                 src={exoplanets_assets.find((item) => item.type === type)?.url}
                 alt={type}
               />
-              <CardContent sx={{ textAlign: "center" }}>
-                <Typography gutterBottom variant="h5" component="div">
+              <CardContent sx={{ textAlign: "center", color: "white" }}>
+                <Typography gutterBottom variant="h5" component="div" sx={{ color: "white" }}>
                   {item.name}
                 </Typography>
-                <Typography variant="body2" sx={{ color: "text.secondary" }}>
+                <Typography variant="body2" sx={{ color: "white" }}>
                   Parsecs from Earth: {item.pfe}
                 </Typography>
-                <Typography variant="body2" sx={{ color: "text.secondary" }}>
+                <Typography variant="body2" sx={{ color: "white" }}>
                   Planet Mass: {item.pm}
                 </Typography>
-                <Typography variant="body2" sx={{ color: "text.secondary" }}>
+                <Typography variant="body2" sx={{ color: "white" }}>
                   Stellar Magnitude: {item.sm}
                 </Typography>
-                <Typography variant="body2" sx={{ color: "text.secondary" }}>
+                <Typography variant="body2" sx={{ color: "white" }}>
                   Discovery Date: {item.dd}
                 </Typography>
               </CardContent>

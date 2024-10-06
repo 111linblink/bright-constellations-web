@@ -2,26 +2,31 @@
     {
         "type": "gas-giant",
         "url": "https://science.nasa.gov/wp-content/uploads/2023/11/gasgiant.jpg?w=1280&format=webp&crop=1",
-        "frame_url": "https://sketchfab.com/models/4f33e4bf5fa742a0a3925cbc57259822/embed?autostart=1&preload=1&ui_theme=dark"
+        "frame_url": "",
+        "p1": "Un gigante gaseoso es un planeta grande compuesto principalmente de helio y/o hidrógeno. Estos planetas, como Júpiter y Saturno en nuestro sistema solar, no tienen superficies duras y, en cambio, tienen gases que giran sobre un núcleo sólido. Los exoplanetas gigantes gaseosos pueden ser mucho más grandes que Júpiter y estar mucho más cerca de sus estrellas que cualquier otro planeta de nuestro sistema solar.\nLos gigantes gaseosos, como Júpiter o Saturno en nuestro sistema solar, están compuestos principalmente de helio y/o hidrógeno. Los gigantes gaseosos más cercanos a sus estrellas suelen llamarse “Júpiter calientes”. Dentro de estas amplias categorías se esconde una mayor variedad."
     },
     {
         "type": "neptune-like",
-        "url": "https://science.nasa.gov/wp-content/uploads/2023/11/neptunelike.jpg?w=1280&format=webp&crop=1",
-        "frame_url": "https://sketchfab.com/models/3eff7930136e41b5b16c3e3e3937747b/embed?autostart=1&preload=1&ui_theme=dark"
+        "url": "https://science.nasa.gov/wp-content/uploads/2023/11/gasgiant.jpg?w=1280&format=webp&crop=1",
+        "frame_url": "",
+        "p1": "Los exoplanetas neptunianos son similares en tamaño a Neptuno o Urano en nuestro sistema solar. Los planetas neptunianos suelen tener atmósferas dominadas por hidrógeno y helio con núcleos de roca y metales más pesados.\nLos exoplanetas neptunianos son similares en tamaño a Neptuno o Urano en nuestro sistema solar. (Neptuno tiene aproximadamente cuatro veces el tamaño, o radio, de la Tierra y casi 17 veces su masa, o peso). Los exoplanetas neptunianos pueden tener una mezcla de interiores, aunque todos serían rocosos con metales más pesados ​​en sus núcleos. Los planetas neptunianos suelen tener atmósferas dominadas por hidrógeno y helio. También estamos descubriendo mini-Neptunos , planetas más pequeños que Neptuno y más grandes que la Tierra. No existen planetas como estos en nuestro sistema solar.\nLos exoplanetas neptunianos suelen tener nubes espesas que impiden el paso de la luz, ocultando así la firma de las moléculas de la atmósfera. El telescopio espacial James Webb, lanzado en 2021, nos permite obtener las mejores imágenes hasta el momento de las atmósferas de los exoplanetas."
     },
     {
         "type": "unknown",
         "url": "https://science.nasa.gov/wp-content/uploads/2023/11/unknown.jpg?w=1280&format=webp&crop=1",
-        "frame_url": "https://sketchfab.com/models/ffeca1edd82b46cba832e009d079a57e/embed?autostart=1&preload=1"
+        "frame_url": "",
+        "p1": "Algunos exoplanetas son similares a la Tierra, mientras que otros pueden ser gigantes gaseosos como Júpiter o planetas helados. El estudio de los exoplanetas ayuda a los astrónomos a comprender los sistemas planetarios más allá del nuestro y el potencial de encontrar vida en otros lugares."
     },
     {
         "type": "super-earth",
-        "url": "https://science.nasa.gov/wp-content/uploads/2023/11/superearth.jpg?w=2048&format=webp&crop=1",
-        "frame_url": "https://sketchfab.com/models/e2f758aea6d043acb2f25dae856e1a38/embed?autostart=1&preload=1"
+        "url": "https://science.nasa.gov/wp-content/uploads/2023/11/neptunelike.jpg?w=1280&format=webp&crop=1",
+        "frame_url": "",
+        "p1": "Las supertierras, una clase de planetas distinta a cualquier otra en nuestro sistema solar, son más masivas que la Tierra pero más livianas que gigantes de hielo como Neptuno y Urano, y pueden estar hechas de gas, roca o una combinación de ambos. Tienen entre el doble del tamaño de la Tierra y hasta diez veces su masa.\nLas supertierras pueden tener hasta diez veces más masa que la Tierra. Aún no sabemos lo suficiente sobre estos planetas como para saber en qué momento podrían perder su superficie rocosa. Pero en el rango de tres a diez veces la masa de la Tierra, podría haber una amplia variedad de composiciones planetarias, incluidos mundos acuáticos, planetas bola de nieve o planetas que, como Neptuno, están compuestos principalmente de gas denso.."
     },
     {
         "type": "terrestrial",
         "url": "https://science.nasa.gov/wp-content/uploads/2023/11/terrestrial.jpg?w=1280&format=webp&crop=1",
-        "frame_url": "https://sketchfab.com/models/6d624c51dfa249b2a512f5906580b2d0/embed"
+        "frame_url": "https://sketchfab.com/models/6d624c51dfa249b2a512f5906580b2d0/embed",
+        "p1": "En nuestro sistema solar, la Tierra, Marte, Mercurio y Venus son planetas terrestres o rocosos.\n En el caso de los planetas fuera de nuestro sistema solar, se consideran terrestres aquellos cuyo\n  tamaño oscila entre la mitad del de la Tierra y el doble de su radio, y otros pueden ser incluso\nmás pequeños."
     }
 ]
