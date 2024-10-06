@@ -38,6 +38,44 @@
   .h1s{
     font-size:5em;
   }
+
+  .learnMoreSection {
+    text-align: center;
+    padding: 40px;
+    background-color: #ffffff; /* Color de fondo suave */
+    border-radius: 10px;
+    margin: 20px auto;
+    width: 80%; /* Ajusta el tamaño según sea necesario */
+  }
+  
+  .h2s {
+    font-size: 35px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .paragraph {
+    font-size: 18px;
+    color: #000000;
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
+  
+  .learnMoreButton {
+    padding: 10px 20px;
+    background-color: #004085;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .learnMoreButton:hover {
+    background-color: #003366;
+  }
+  
   
 
 
