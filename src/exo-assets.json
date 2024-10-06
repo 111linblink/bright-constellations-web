@@ -2,22 +2,22 @@
     {
         "type": "gas-giant",
         "url": "https://science.nasa.gov/wp-content/uploads/2023/11/gasgiant.jpg?w=1280&format=webp&crop=1",
-        "frame_url": ""
+        "frame_url": "https://sketchfab.com/models/4f33e4bf5fa742a0a3925cbc57259822/embed?autostart=1&preload=1&ui_theme=dark"
     },
     {
         "type": "neptune-like",
-        "url": "https://science.nasa.gov/wp-content/uploads/2023/11/gasgiant.jpg?w=1280&format=webp&crop=1",
-        "frame_url": ""
+        "url": "https://science.nasa.gov/wp-content/uploads/2023/11/neptunelike.jpg?w=1280&format=webp&crop=1",
+        "frame_url": "https://sketchfab.com/models/3eff7930136e41b5b16c3e3e3937747b/embed?autostart=1&preload=1&ui_theme=dark"
     },
     {
         "type": "unknown",
         "url": "https://science.nasa.gov/wp-content/uploads/2023/11/unknown.jpg?w=1280&format=webp&crop=1",
-        "frame_url": ""
+        "frame_url": "https://sketchfab.com/models/ffeca1edd82b46cba832e009d079a57e/embed?autostart=1&preload=1"
     },
     {
         "type": "super-earth",
-        "url": "https://science.nasa.gov/wp-content/uploads/2023/11/neptunelike.jpg?w=1280&format=webp&crop=1",
-        "frame_url": ""
+        "url": "https://science.nasa.gov/wp-content/uploads/2023/11/superearth.jpg?w=2048&format=webp&crop=1",
+        "frame_url": "https://sketchfab.com/models/e2f758aea6d043acb2f25dae856e1a38/embed?autostart=1&preload=1"
     },
     {
         "type": "terrestrial",

@@ -117,7 +117,7 @@ export default function Home() {
               <CardMedia
                 component="img"
                 height="140"
-                image="https://science.nasa.gov/wp-content/uploads/2023/11/neptunelike.jpg?w=1280&format=webp&crop=1"
+                image="https://science.nasa.gov/wp-content/uploads/2023/11/superearth.jpg?w=2048&format=webp&crop=1"
                 alt="Super Earth"
               />
               <CardContent sx={{ textAlign: "center" }}>
@@ -138,7 +138,7 @@ export default function Home() {
               <CardMedia
                 component="img"
                 height="140"
-                src="https://science.nasa.gov/wp-content/uploads/2023/11/gasgiant.jpg?w=1280&format=webp&crop=1"
+                src="https://science.nasa.gov/wp-content/uploads/2023/11/neptunelike.jpg?w=1280&format=webp&crop=1"
                 alt="Neptune-like"
               />
               <CardContent sx={{ textAlign: "center" }}>
