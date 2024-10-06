@@ -52,29 +52,35 @@ export default function Home() {
       </div>
 
       <div className={styles.learnMoreSection}>
-        <h2 className={styles.h2s}>Conoce más sobre Exoplanetas</h2>
-        <p className={styles.paragraph}>
-          Los exoplanetas son planetas que orbitan estrellas fuera de nuestro
-          sistema solar. Cada uno de estos mundos es único y sorprendente, y
-          algunos podrían incluso tener las condiciones necesarias para albergar
-          vida. Descubre los distintos tipos de exoplanetas, desde gigantes
-          gaseosos hasta mundos rocosos similares a la Tierra.
-        </p>
-        <button className={styles.learnMoreButton}>Más información</button>
+        <div className={styles.textContainer}>
+          <h2 className={styles.h2s}>Conoce más sobre Exoplanetas</h2>
+          <br/>
+          <p className={styles.paragraph}>
+            Los exoplanetas son planetas que orbitan estrellas fuera de nuestro sistema solar. 
+          </p>
+          <p className={styles.paragraph}>Algunos de estos mundos podrían tener las condiciones necesarias para albergar vida.</p>
+      </div>
+      <br/>
+      <button 
+        onClick={() => document.getElementById("cartas").scrollIntoView({ behavior: "smooth" })} 
+        className={styles.roundButton}
+      >
+        ↓
+      </button>
       </div>
 
-      <div>
+
+      <div className={styles.catalogContainer}>
+        <video autoPlay loop muted className={styles.backgroundVideo}>
+          <source src="https://assets.mixkit.co/videos/14410/14410-720.mp4" type="video/mp4" />
+          Tu navegador no soporta el video.
+        </video>
         <h1 className={styles.h1s}>Exoplanet Catalog</h1>
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
       </div>
+
 
       {/* Cards Section */}
-      <section
+      <section id="cartas"
         style={{
           display: "flex",
           flexDirection: "column",
@@ -91,7 +97,7 @@ export default function Home() {
           }}
         >
           {/* Card 1 */}
-          <Card sx={{ maxWidth: 345, borderRadius: "5%" }}>
+          <Card sx={{ maxWidth: 345, borderRadius: "5%", background:"black" }}>
             <CardActionArea onClick={() => sendRoute("terrestrial")}>
               <CardMedia
                 component="img"
@@ -100,10 +106,10 @@ export default function Home() {
                 alt="Terrestrial"
               />
               <CardContent sx={{ textAlign: "center" }}>
-                <Typography gutterBottom variant="h5" component="div">
+                <Typography gutterBottom variant="h5" component="div" sx={{color:"white"}}>
                   Terrestrial
                 </Typography>
-                <Typography variant="body2" sx={{ color: "text.secondary" }}>
+                <Typography variant="body2" sx={{ color: "white" }}>
                   A type of exoplanet made of rock or metal, smaller than Earth,
                   possibly with oceans or atmospheres (artists concept).
                 </Typography>
@@ -112,7 +118,7 @@ export default function Home() {
           </Card>
 
           {/* Card 2 */}
-          <Card sx={{ maxWidth: 345, borderRadius: "5%" }}>
+          <Card sx={{ maxWidth: 345, borderRadius: "5%", background: "black"}}>
             <CardActionArea onClick={() => sendRoute("super-earth")}>
               <CardMedia
                 component="img"
@@ -121,10 +127,10 @@ export default function Home() {
                 alt="Super Earth"
               />
               <CardContent sx={{ textAlign: "center" }}>
-                <Typography gutterBottom variant="h5" component="div">
+                <Typography gutterBottom variant="h5" component="div" sx={{color:"white"}}>
                   Super Earth
                 </Typography>
-                <Typography variant="body2" sx={{ color: "text.secondary" }}>
+                <Typography variant="body2" sx={{ color: "white" }}>
                   Super-Earth exoplanets are also rocky, but between Earth and
                   Neptune in size (artists concept).
                 </Typography>
@@ -133,7 +139,7 @@ export default function Home() {
           </Card>
 
           {/* Card 3 */}
-          <Card sx={{ maxWidth: 345, borderRadius: "5%" }}>
+          <Card sx={{ maxWidth: 345, borderRadius: "5%", background: "black"}}>
             <CardActionArea onClick={() => sendRoute("neptune-like")}>
               <CardMedia
                 component="img"
@@ -142,10 +148,10 @@ export default function Home() {
                 alt="Neptune-like"
               />
               <CardContent sx={{ textAlign: "center" }}>
-                <Typography gutterBottom variant="h5" component="div">
+                <Typography gutterBottom variant="h5" component="div" sx={{color: "white"}}>
                   Neptune-like
                 </Typography>
-                <Typography variant="body2" sx={{ color: "text.secondary" }}>
+                <Typography variant="body2" sx={{ color: "white" }}>
                   This variety of exoplanet is similar in size to Uranus and
                   Neptune, with an atmosphere of mostly hydrogen or helium
                   (artists concept).
@@ -166,7 +172,7 @@ export default function Home() {
           }}
         >
           {/* Card 4 */}
-          <Card sx={{ maxWidth: 345, borderRadius: "5%" }}>
+          <Card sx={{ maxWidth: 345, borderRadius: "5%", background: "black" }}>
             <CardActionArea onClick={() => sendRoute("gas-giant")}>
               <CardMedia
                 component="img"
@@ -175,10 +181,10 @@ export default function Home() {
                 alt="Gas Giant"
               />
               <CardContent sx={{ textAlign: "center" }}>
-                <Typography gutterBottom variant="h5" component="div">
+                <Typography gutterBottom variant="h5" component="div" sx={{color: "white"}}>
                   Gas Giant
                 </Typography>
-                <Typography variant="body2" sx={{ color: "text.secondary" }}>
+                <Typography variant="body2" sx={{ color: "white" }}>
                   This variety of exoplanet is similar in size to Uranus and
                   Neptune, with an atmosphere of mostly hydrogen or helium
                   (artists concept).
@@ -187,7 +193,7 @@ export default function Home() {
             </CardActionArea>
           </Card>
           {/* Card 5 */}
-          <Card sx={{ maxWidth: 345, borderRadius: "5%" }}>
+          <Card sx={{ maxWidth: 345, borderRadius: "5%", background: "black" }}>
             <CardActionArea onClick={() => sendRoute("unknown")}>
               <CardMedia
                 component="img"
@@ -196,10 +202,10 @@ export default function Home() {
                 alt="Unknown"
               />
               <CardContent sx={{ textAlign: "center" }}>
-                <Typography gutterBottom variant="h5" component="div">
+                <Typography gutterBottom variant="h5" component="div" sx={{color: "white"}}>
                   Unknown
                 </Typography>
-                <Typography variant="body2" sx={{ color: "text.secondary" }}>
+                <Typography variant="body2" sx={{ color: "white" }}>
                   This variety of exoplanet is similar in size to Uranus and
                   Neptune, with an atmosphere of mostly hydrogen or helium
                   (artists concept).
